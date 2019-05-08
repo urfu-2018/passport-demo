@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang={{ page.lang }}>
+
+<head>
+  <meta charset="{{ meta.charset }}">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ meta.description }}">
+</head>
+
+<body>
+  <form action="/login" method="POST">
+    <input name="username" type="text" placeholder="username">
+    <input name="password" type="password" placeholder="password">
+    <button type="submit">Войти</button>
+  </form>
+</body>
+
+</html>

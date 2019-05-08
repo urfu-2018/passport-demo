@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang={{ page.lang }}>
+
+<head>
+  <meta charset="{{ meta.charset }}">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ meta.description }}">
+</head>
+
+<body>
+  {{#if owner }}
+  <p>Владелец заметки: {{ owner.displayName }}</p>
+  {{/if}}
+
+  {{ note.text }}
+</body>
+
+</html>
